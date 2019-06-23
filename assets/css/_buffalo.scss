@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body{
 	background-color: #313638;
@@ -29,6 +30,37 @@ h2 {
 	display: inline-block;
 	margin: 0;
 }
+
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #E0DFD5;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: 'Bungee Inline', cursive;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: #E0DFD5;
+	text-align: center;
+	padding-right: 12px;
+	text-decoration: none;
+  }
+  
+  li a:hover {
+	//background-color: #E4B363;;
+	color: #EF6461;
+	text-decoration: none;
+  }
 
 .titles a {
 	color: white;
