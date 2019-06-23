@@ -60,6 +60,10 @@ func App() *buffalo.App {
 
 		app.GET("/", HomeHandler)
 		app.GET("/cards", CardsHandler)
+		app.GET("/decks", DecksHandler)
+		app.GET("/combos", CombosHandler)
+		app.GET("/news", NewsHandler)
+		app.GET("/about", AboutHandler)
 
 		app.ServeFiles("/", assetsBox) // serve files from the public directory
 	}
