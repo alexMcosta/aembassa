@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body{
 	background-color: #313638;
@@ -12,19 +13,17 @@ body{
 header {
 	background-color: #313638;
 	padding: 10px 20px;
-	//box-sizing: border-box;
-}
-
-.logo img {
-	width: 80px;
 }
 
 h1 {
     font-family: 'Bungee Inline', cursive;
-    color: #E4B363;
+	color: #E4B363;
+	margin-bottom: 0;
 }
 
-.titles h2 {
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #EF6461;
 	font-weight: 300;
 	font-size: 18px;
 	display: inline-block;
