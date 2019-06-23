@@ -1,23 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap');
+
+body{
+	background-color: #313638;
+}
+
 .container {
 	min-width: 320px;
+	max-width: none;
 }
 
 header {
-	background-color: #62a5ee;
+	background-color: #313638;
 	padding: 10px 20px;
-	box-sizing: border-box;
+	//box-sizing: border-box;
 }
 
 .logo img {
 	width: 80px;
 }
 
-.titles h1 {
-	font-size: 30px;
-	font-weight: 300;
-	color: white;
-	margin-bottom: 13px;
-	margin-top: 5px;
+h1 {
+    font-family: 'Bungee Inline', cursive;
+    color: #E4B363;
 }
 
 .titles h2 {
