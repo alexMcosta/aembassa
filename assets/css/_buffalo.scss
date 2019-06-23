@@ -16,10 +16,15 @@ header {
 	padding: 10px 20px;
 }
 
-h1 {
+h1 a{
     font-family: 'Bungee Inline', cursive;
 	color: #E4B363;
 	margin-bottom: 0;
+}
+
+h1 a:hover {
+	text-decoration: none;
+	color: #EF6461;
 }
 
 h2 {
@@ -57,7 +62,6 @@ ul {
   }
   
   li a:hover {
-	//background-color: #E4B363;;
 	color: #EF6461;
 	text-decoration: none;
   }
